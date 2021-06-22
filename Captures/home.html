@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>calculator</title>
+        <link rel="stylesheet" href="home.css" >
+    </head>
+    <body>
+        <div class="container"></div>
+        <form name="calculator">
+        <input type="text" class="BR" id="display" name="display" placeholder="0" readonly
+        style="position: relative;top: 100px;left:450px;"
+        >
+    </br>
+    
+        <input class="B1" type="button" value="1" onclick="calculator.display.value +='1'"
+        style="position: absolute;top: 210px;left:460px;"></input>
+
+        <input class="B2"
+        type="button" value="2" onclick="calculator.display.value +='2'"
+        style="position: absolute;top: 210px;left:525px;"></input>
+
+        <input class="B3"
+        type="button" value="3" onclick="calculator.display.value +='3'"
+        style="position: absolute;top: 210px;left:590px;"></input>
+
+        <input class="B4"
+        type="button" value="4" onclick="calculator.display.value +='4'"
+        style="position: absolute;top: 210px;left:655px;"></input>
+
+        <input class="B5"
+        type="button" value="5" onclick="calculator.display.value +='5'"
+        style="position: absolute;top: 210px;left:720px;"></input>
+    
+    
+</br>
+</br>
+        <input class="B6"
+        type="button" value="6" onclick="calculator.display.value +='6'"
+        style="position: absolute;top: 300px;left: 460px;"></input>
+
+        <input class="B7"
+        type="button" value="7" onclick="calculator.display.value +='7'"
+        style="position: absolute;top: 300px;left: 525px;"></input>
+
+        <input class="B8"
+        type="button" value="8" onclick="calculator.display.value +='8'"
+        style="position: absolute;top: 300px;left: 590px;"></input>
+
+        <input class="B9"
+        type="button" value="9" onclick="calculator.display.value +='9'"
+        style="position: absolute;top: 300px;left: 655px;"></input>
+
+        <input class="B0"
+        type="button" value="0" onclick="calculator.display.value +='0'"
+        style="position: absolute;top: 300px;left: 720px;"></input>
+    
+</br>
+</br>
+
+        <input class="BA"
+        type="button" value="-" onclick="calculator.display.value +='-'"
+        style="position: absolute;top: 380px;left:655px;">
+
+        <input class="BC"
+        type="button" value="+" onclick="calculator.display.value +='+'"
+        style="position: absolute;top: 380px;left:525px;"></input>
+
+        <input class="Bi"
+        type="button" value="/" onclick="calculator.display.value +='/'"
+        style="position: absolute;top: 380px;left:590px;"></input>
+
+        <input class="B-"
+        type="button" value="X" onclick="calculator.display.value +='*'"
+        style="position: absolute;top: 380px;left:460px;"></input>
+
+        <input class="BX"
+        type="button" value="=" onclick="calculator.display.value =eval (calculator.display.value)"
+        style="position: absolute;top: 380px;left:720px;"></input>
+        
+        <input class="BD"
+        type="button" value="Delete" onclick="calculator.display.value =''"
+        style="position: absolute;top: 200px;left:790px;"></input>
+    </form>
+
+    </body>
+</html>
